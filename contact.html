@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Letaya Salon & Spa</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="./Resources/allFiles.css" type="text/css" rel="stylesheet">
+		<link href="./Resources/contactCSS.css" type="text/css" rel="stylesheet">
+        <link href="./Resources/animate.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<!-- Header with navigation bar -->
+		<header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href ="services.html">Services</a></li>
+					<li class = "mobile"><a href ="testimonials.html">Testimonials</a></li>  
+					<li class = "mobile"><a class="current" href ="contact.html">Contact Us</a></li>
+					<li class="logo"><a href="index.html">LetayaSalon Logo</a></li>
+					<li class = "desktop"><a href ="testimonials.html">Testimonials</a></li>  
+					<li class = "desktop"><a class="current" href ="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+        </header>
+        
+        <!-- Divs -->
+
+        <div class="contact">
+			<div class="container">
+				<div class="phone">
+					<p><i class="fa fa-phone wow bounce" data-wow-delay="0.1s"></i> 250-765-7400</p>
+				</div>
+				<div class="address"> 
+					<p><i class="fas fa-map-marker wow bounce"data-wow-delay="0.1s"></i><strong> Letaya Salon and Spa</strong></p>
+					<p>103-330 Highway 33W</p>  
+					<p>Kelowna, British Columbia V1X1X9</p>
+				</div>
+				<div class="email">
+					<p><i class="fas fa-envelope wow bounce"data-wow-delay="0.1s"></i> letayasalonandspa@gmail.com </p>
+				</div> 
+			</div>     
+		</div>
+		
+        <div id="map">
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.512793263456!2d-119.39389708432279!3d49.
+                88917537940185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537d8d3ba1f29523%3A0x1553dbedb1a7bd9f!2sLetaya%20Salon%20%26%20Spa!
+                5e0!3m2!1sen!2sca!4v1583823607686!5m2!1sen!2sca" 
+                width="95%" height="400" frameborder="0" style="border:20px;" allowfullscreen=""></iframe>
+            </p>
+        </div>
+
+        <div class="hours">
+            <img class=" wow fadeInUp" src="Resources/businesshours.png" alt="hours of business">
+        </div>
+
+        <div class="appointment">
+            <img class=" wow bounceIn" data-wow-delay="1s" src = "Resources/shcedule.png" alt="schedule your appointment">
+        </div>
+
+        <!-- Footer  -->
+		<footer>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href ="services.html">Services</a></li>
+					<li><a href ="testimonials.html">Testimonials</a></li>  
+					<li><a href ="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+			<h1 class="wow fadeInUp">Letaya Salon and Spa</h1>
+			<h3 class="wow fadeInUp"><em>Licensed, Insured, and Bonded</em></h3>
+			<p class="wow fadeInUp">&copy Designed and Developed by Shrey Malhan</p>
+		</footer>
+
+        <!-- JS scripts -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+        <script src="Resources/wow.min.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script>
+            new WOW().init();
+		</script>
+	</body>
+</html>

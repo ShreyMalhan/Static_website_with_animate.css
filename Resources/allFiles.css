@@ -1,0 +1,142 @@
+body{
+    background-color: #FFF1E2;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    /* border: 2px solid red; */
+    background-color: #FFF1E2;
+    background-size: 100%;
+    background-position: center;
+    background-image: url("hair3.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+    margin: 0;
+}
+
+header a{
+    color: black;
+    margin-top: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+header li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    padding-top: 3%;
+}
+
+header .logo a{
+    background-image: url("logo2.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 150px;
+    position: relative;
+    text-indent: -9999999999px;
+    top: -65px;
+    width: 350px; 
+    margin-left: 7%;
+}
+
+header .mobile{
+    display: none;
+}
+
+header li :hover{
+    text-decoration-line: underline;
+}
+
+header nav .current{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1098px){
+    header{
+        height: 300px;
+    }
+    header li{
+        font-family: garamond;
+        font-size: 17pt;
+        font-weight: bold;
+        display: inline-block;
+        padding: 5px 10px;
+    }
+
+    header .logo a{
+        background-size: 250px;
+        width: 280px;
+        margin-left: -5%;
+        margin-top: 17%;
+    }
+
+}
+
+@media screen and (max-width: 918px){
+    header li{
+        font-family: garamond;
+        font-size: 14pt;
+        font-weight: bold;
+        display: inline-block;
+        padding: 5px 10px;
+    }
+}
+
+footer{
+    background-color: black;
+    color: lightgrey;
+    height: auto;
+    padding: 1.5%;
+    text-align: center;
+}
+
+footer a{
+    color: lightgrey;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+footer ul{
+    list-style-type: none;
+}
+
+footer li{
+    font-family: garamond;
+    font-size: 12pt;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+footer li :hover{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+footer h1{
+    color: salmon;
+    margin-top: 2%;
+}
+
+footer h3{
+    color: silver;
+}
+
+footer p{
+    font-size: 11pt;
+    margin-top: 5%;
+}

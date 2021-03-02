@@ -1,0 +1,66 @@
+.contact{
+    background-image: url(Aesthetics.jpg);
+    font-size: 22pt;
+    height: 350px;
+    /* margin: auto; */
+    text-align: center;
+}
+
+.container{
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 5%;
+    width: 90%;
+}
+
+.phone{
+    margin: auto;
+    margin-left: 10%;
+    /* margin-top: 4%; */
+    /* background-color: red; */
+}
+
+.address{
+    margin: auto;
+    /* background-color: green; */
+}
+
+.email{
+    
+    margin: auto;
+    /* margin-top: 4%; */
+    /* background-color: purple; */
+}
+
+/* .contact p{
+    margin: auto;
+    margin-top: 7%;
+} */
+
+#map{
+    margin-left: 5%;
+}
+
+.hours{
+    background-image: url(hours.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+}
+
+.hours img{
+    margin-left: 15%;
+    width: 65%;
+}
+
+.appointment {
+    height:auto;
+}
+
+.appointment img{
+    margin-left: 17%;
+    width: 70%;
+}

@@ -1,0 +1,170 @@
+.opening{
+  padding: 0;
+  margin: 0;
+  background-image: url(opening.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 400px;
+  text-align: center;
+}
+
+
+
+.heading{
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 5px 0 5px 0;
+  text-align: center;
+}
+
+
+table{
+  border-collapse: collapse;
+  background-color: rgb(219, 194, 159);
+  border-radius: 1em;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 22pt;
+}
+
+table caption{
+  font-size: 30pt;
+}
+
+tr{
+  border-bottom: 5px solid #FFF1E2; 
+}
+
+th{
+  padding: 10px 20px 10px 20px;
+}
+
+td{
+  text-align:center;
+  padding: 10px;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.laserContainer .ladies img{
+  width: 110px;
+  height: 140px;
+  margin-left: 40%;
+}
+
+.laserContainer .male img{
+  width: 110px;
+  height: 140px;
+  margin-left: 40%;
+}
+
+.laserContainer .ladies{
+  margin: auto;
+}
+
+.laserContainer .male{
+  margin: auto;
+}
+
+
+.acne table{
+  margin: auto;
+  margin-top: 3%;
+  padding: 10px 30px 10px 30px;;
+}
+
+.rejuvenation table{
+  margin: auto;
+  margin-top: 3%;
+  padding: 10px 30px 10px 30px;;
+}
+
+.hairContainer table{
+  font-size: 20pt;
+}
+
+.hairContainer table p{
+  font-size: 14pt;
+}
+
+.price{
+  width: 30%;
+}
+
+.hairContainer img{
+  width: 110px;
+  height: 140px;
+  margin-left: 40%;
+}
+
+.ladiesHair{
+  margin: auto;
+}
+
+.maleHair{
+  margin: auto;
+}
+
+.ladiesHair table td{
+  padding: 1% 100px 0 100px;  
+}
+
+.maleHair table td{
+  padding: 1% 75px 0 75px;  
+}
+
+.kids table td{
+  padding: 1% 57px 0 57px;  
+}
+
+.kids table{
+  margin: auto;
+  margin-top: 2%;
+}
+
+.meni{
+  margin-top: 2%;
+  /* background-color: red; */
+}
+
+.meni .written{
+  /* background-color: green; */
+  margin: auto;
+  /* padding-top: 0%; */
+  font-size: 18pt;
+  text-align: center;
+  width: 60%
+  
+}
+
+.meni .written p{
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  width: 80%;
+}
+
+.meni .hands{
+  margin: auto;
+  float: right;
+}
+
+.meni .hands img{
+  height: 350px;
+  width: 600px;
+}
+
+.meni table{
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  width: 50%;
+}
+
+
