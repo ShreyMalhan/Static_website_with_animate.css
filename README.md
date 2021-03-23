@@ -1,4 +1,3 @@
-
 #### The website can be found [here](https://static-website-with-animation.herokuapp.com/).
 # Static Website with Animate.css
 
@@ -79,3 +78,4 @@ The element now becomes: `<h3 class="wow fadeInUp">Animated Element</h3>`
 ## Conclusion
 
 These are some easy ways to spice up your static website and entice your users. Simply let your imagination run wild and see what you can come up with.
+
